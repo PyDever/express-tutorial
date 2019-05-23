@@ -55,18 +55,14 @@ by simply changing HTTP header values and properly configuring Cookies.
 {
 'X-XSS-Protection': 1, // HELPS prevent XSS, cannot do it on its own
 'X-Frame-Options': 'deny', // HELPS prevent Clickjacking, XSS protection is also required for this
-'Cache-Control': 'no-cache, no-store, must-revalidate, post-check=0, pre-check=0'', // prevents Cache-poisoning
+'Cache-Control': 'no-cache, no-store, must-revalidate, post-check=0, pre-check=0'', 
 'Pragma': 'no-cache',
-
-// these help prevent information gathering
 'X-Powered-By': 'hidden',
 'Server': 'hidden',
 'Content-Type': 'hidden', 
 'Content-Encoding': 'hidden', 
 'Date': 'hidden', 
 'Content-Length': 'hidden', 
-
-// headers that need to be changed for performance
 'Connection': 'Keep-Alive',
 'Vary': 'Accept-Encoding'
 }
