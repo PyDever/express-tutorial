@@ -51,7 +51,7 @@ access to your entire server.
 ## ***The Fix!***
 As previously stated, most of these attacks can be prevented 
 by simply changing HTTP header values and properly configuring Cookies.
-```JSON
+```javascript
 {
 'X-XSS-Protection': 1, 
 'X-Frame-Options': 'deny', 
