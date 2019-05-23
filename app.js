@@ -29,15 +29,5 @@ Objective 3-
 start the server on port 3000
 */
 
-/*
-Security Settings Objectives-
-Objective 4-
-	Protect the GET route from XSS attacks
-Objective 5-
-	Protect the POST route from XSS attacks
-Objective 6-
-	Protect the web-server from
-	cookie-stealing, cache-poisoning, clickjacking,
-	and cross-site request forgery, and information-gathering
-*/
+
 
