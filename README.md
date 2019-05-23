@@ -1,7 +1,7 @@
 # express-tutorial
 Simple Express.js tutorial for Hawaii Technology Academy.
 <hr>
-Read the comments in `app.js` and complete the server-side code.
+Read the comments in app.js and complete the server-side code.
 This should not be too difficult. If you need assistance, go to 
 https://expressjs.com/en/guide/
 ..or let me know!
