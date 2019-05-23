@@ -67,7 +67,8 @@ by simply changing HTTP header values and properly configuring Cookies.
 'Content-Length': 'hidden', // set this to hidden
 
 // headers that need to be changed for performance
-'Connection': 'Keep-Alive'
+'Connection': 'Keep-Alive',
+'Vary': 'Accept-Encoding'
 }
 ```
 As a side note, once you configure Cookies, it shows up in the HTTP header, along with the secret key.
