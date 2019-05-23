@@ -59,12 +59,12 @@ by simply changing HTTP header values and properly configuring Cookies.
 'Pragma': 'no-cache',
 
 // these help prevent information gathering
-'X-Powered-By': 'hidden', // set this to hidden...
-'Server': 'hidden', // set this to hidden...
-'Content-Type': 'hidden', // set this to hidden...
-'Content-Encoding': 'hidden', // set this to hidden...
-'Date': 'hidden', // set this to hidden...
-'Content-Length': 'hidden', // set this to hidden
+'X-Powered-By': 'hidden',
+'Server': 'hidden',
+'Content-Type': 'hidden', 
+'Content-Encoding': 'hidden', 
+'Date': 'hidden', 
+'Content-Length': 'hidden', 
 
 // headers that need to be changed for performance
 'Connection': 'Keep-Alive',
