@@ -53,9 +53,9 @@ As previously stated, most of these attacks can be prevented
 by simply changing HTTP header values and properly configuring Cookies.
 ```JSON
 {
-'X-XSS-Protection': 1, // HELPS prevent XSS, cannot do it on its own
-'X-Frame-Options': 'deny', // HELPS prevent Clickjacking, XSS protection is also required for this
-'Cache-Control': 'no-cache, no-store, must-revalidate, post-check=0, pre-check=0'', 
+'X-XSS-Protection': 1, 
+'X-Frame-Options': 'deny', 
+'Cache-Control': 'no-cache, no-store, must-revalidate, post-check=0, pre-check=0', 
 'Pragma': 'no-cache',
 'X-Powered-By': 'hidden',
 'Server': 'hidden',
